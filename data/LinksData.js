@@ -64,75 +64,12 @@ const webLinks = [
         icon: '/linkedin.svg',
         on: true
     },
-    {
-        title: 'Mastodon',
-        url: 'https://mastodon.online/@realvjy',
-        type: 'social',
-        icon: '/mastodon.svg',
-        on: false
-    },
-    {
-        title: 'Hive Social',
-        url: 'https://www.hivesocial.app/?@realvjy',
-        type: 'social',
-        icon: '/hive.svg',
-        on: false
-    },
-    {
-        title: 'Post',
-        url: 'https://www.post.news/realvjy',
-        type: 'social',
-        icon: '/post.svg',
-        on: false
-    },
-    {
-        title: 'foundation',
-        url: 'https://vjy.me',
-        type: 'nft',
-        icon: '/foundation.svg',
-        on: false
-    },
-    {
-        title: 'opensea',
-        url: 'https://vjy.me',
-        type: 'nft',
-        icon: '/opensea.svg',
-        on: false
-    },
-    {
-        title: 'new collection',
-        url: 'https://vjy.me',
-        type: 'nft',
-        icon: '/opensea.svg',
-        on: false
-    },
     // Install section
     {
-        title: 'Use this template',
-        url: 'https://github.com/realvjy/nxt-lnk/generate',
+        title: 'grayscale off',
+        url: 'https://www.icloud.com/shortcuts/ae53ce08b4004dfeb6b1d476e7214dea',
         type: 'install',
         icon: '/use.png',
-        on: true
-    },
-    {
-        title: 'Deploy on Vercel',
-        url: 'https://vercel.com/import/git?s=https://github.com/realvjy/nxt-lnk',
-        type: 'install',
-        icon: '/vercel.svg',
-        on: true
-    },
-    {
-        title: 'Documentation',
-        url: 'https://github.com/realvjy/nxt-lnk#nxt-lnk',
-        type: 'install',
-        icon: '/doc.png',
-        on: true
-    },
-    {
-        title: 'Github',
-        url: 'https://github.com/realvjy/nxt-lnk',
-        type: 'install',
-        icon: '/github-fill.svg',
         on: true
     },
 
@@ -141,7 +78,7 @@ const webLinks = [
         url: 'https://www.buymeacoffee.com/realvjy',
         type: 'other',
         icon: '/bmc.png',
-        on: true
+        on: false
     },
 
     {
@@ -149,7 +86,7 @@ const webLinks = [
         url: 'https://vjy.me/lnk',
         type: 'other',
         icon: '/vjy.png',
-        on: true
+        on: false
     },
 
     {
@@ -157,7 +94,7 @@ const webLinks = [
         url: 'https://vjy.me',
         type: 'other',
         icon: '/vjy.png',
-        on: true
+        on: false
     },
 ];
 
