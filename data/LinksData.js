@@ -48,13 +48,6 @@ const webLinks = [
         url: 'https://figma.com/@realvjy',
         type: 'social',
         icon: '/figma.svg',
-        on: true
-    },
-    {
-        title: 'Behance',
-        url: 'https://behance.net/realvjy',
-        type: 'social',
-        icon: '/behance.svg',
         on: false
     },
     {
@@ -74,11 +67,11 @@ const webLinks = [
     },
 
     {
-        title: 'Buy Me a Coffee',
-        url: 'https://www.buymeacoffee.com/realvjy',
-        type: 'other',
-        icon: '/bmc.png',
-        on: false
+        title: 'doom scroll cure',
+        url: 'https://www.icloud.com/shortcuts/7614a984abef4190a6329ef46842a4bf',
+        type: 'install',
+        icon: '/use.png',
+        on: true
     },
 
     {
