@@ -1,5 +1,5 @@
 // Weblinks Page Sections
-// created by @realvjy
+// created by @larra
 // date: 29 Jul, 2022
 
 import Image from "next/image";
