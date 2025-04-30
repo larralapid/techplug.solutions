@@ -38,13 +38,19 @@ body.light-mode {
   margin: 0;
   padding: 0;
   border: 0;
-  list-style: none;
+  // list-style: none;
   text-decoration: none;
   box-sizing: border-box;
   line-height: normal;
   transition: all .1s ease;
   
   
+}
+
+ol, ul {
+  list-style: revert;
+  margin-left: 2em;
+  padding-left: revert;
 }
 
 html{

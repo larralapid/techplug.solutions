@@ -8,7 +8,7 @@ export default function Home() {
     title: seoData.openGraph.title,
     excerpt: 'home',
     slug: '/',
-    coverImage: 'https://vjy.me/preview.jpg'
+    coverImage: 'https://github.com/larralapid/techplug.solutions/blob/main/public/brain%20graph.png?raw=true'
   };
   return (
     <>

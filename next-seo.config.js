@@ -2,23 +2,23 @@ export default {
     openGraph: {
         type: 'website',
         locale: 'en_IE',
-        title: 'next lnks by realvjy',
-        url: 'https://vjy.me',
-        description: 'Custom bio links for creatives who love coding. Made this first to use for my own weblinks vjy.me/lnk.',
+        title: 'techplug.solutions',
+        url: 'techplug.solutions',
+        description: 'collection of stuff i made',
         locale: 'en_EN',
-        keywords: 'designer, product designer, illustrator, indian designer, vijay verma, realvjy, illlustrations, indian illustrator, ui designer india, sushi design system, zomato designer, 3dicons, uiprint, vijay realvjy, indian ui designer, design india, overlayz, nft art',
+        keywords: 'developer, portfolio, projects, links, larralapid',
         images: [
             {
                 width: 1200,
                 height: 630,
-                url: `https://vjy.me/preview.jpg`,
+                url: `https://github.com/larralapid/techplug.solutions/blob/main/public/brain%20graph.png?raw=true`,
             },
         ],
-        site_name: 'realvjy',
+        site_name: 'techplug.solutions',
     },
     twitter: {
-        handle: '@realvjy',
-        site: 'vjy.me',
+        handle: '@tilatechila',
+        site: 'techplug.solutions',
         cardType: 'summary_large_image',
     },
 };
