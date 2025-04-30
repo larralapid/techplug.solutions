@@ -11,7 +11,7 @@ export default {
             {
                 width: 1200,
                 height: 630,
-                url: `https://vjy.me/preview.jpg`,
+                url: `https://github.com/larralapid/techplug.solutions/blob/main/public/brain%20graph.png?raw=true`,
             },
         ],
         site_name: 'techplug.solutions',
