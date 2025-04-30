@@ -1,8 +1,8 @@
 {
-  "name": "realvjy",
+  "name": "larra",
   "version": "5.0.0",
   "description": "Design Wizard",
-  "author": "realvjy",
+  "author": "larra",
   "license": "MIT",
   "private": true,
   "scripts": {
@@ -19,7 +19,7 @@
     "react-dom": "18.2.0",
     "react-fast-marquee": "^1.3.2",
     "react-mailchimp-subscribe": "^2.1.3",
-    "react-particles-js": "^3.6.0",
+    "react-tsparticles": "^2.12.2",
     "styled-components": "^5.3.5",
     "three": "^0.142.0",
     "use-dark-mode": "^2.3.1",

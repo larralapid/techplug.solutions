@@ -28,7 +28,7 @@ export default function Seo({ page }) {
                     site_name: 'vjy.me',
                 }}
                 twitter={{
-                    handle: '@realvjy',
+                    handle: '@larra',
                     site: 'vjy.me',
                     cardType: 'summary_large_image',
                 }}

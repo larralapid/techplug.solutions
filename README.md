@@ -1,15 +1,3 @@
-# Nxt Lnk
-
-**Custom bio links for creatives who love coding. Made this first to use for my own weblinks vjy.me/lnk**
-
-A perfect custom alternative for linktree, bio and other shortner platform. Check live version here [nxtlnk.xyz](https://nxtlnk.xyz)
-
-Pull requests are always welcome. In case you want inspiration or new features on what to add, check out the issues for feature requests.
-
-Coffee fuels coding ☕️
-
-<a href="https://www.buymeacoffee.com/realvjy" target="_blank"><img src="https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png" alt="Buy Me A Coffee" style="height: 60px !important;width: 217px !important;" ></a>
-
 **Table of Contents**
 <!-- START doctoc generated TOC please keep comment here to allow auto update -->
 <!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
@@ -42,21 +30,11 @@ For customization used [styled components](https://styled-components.com/). If y
 
 **Template auto support dark-mode depending on system cofig.**
 
-## Quick Start
-[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/import/git?s=https://github.com/realvjy/nxt-lnk) [![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/realvjy/nxt-lnk)
-
-
-## Manual Setup
-Run the following command to create a new project with this template:
-```bash
-yarn create next-app your-app-name -e https://github.com/realvjy/nxt-lnk
-# or
-npx create-next-app your-app-name -e https://github.com/realvjy/nxt-lnk
-```
 
 ## Getting Started
 
-Use any editor to work on editing. I use [vscode](https://code.visualstudio.com/)
+Install using 
+`pnpm install`
 
 First, run the development server:
 ```bash
@@ -86,7 +64,7 @@ All images stored inside `public` folder of the project.
 const bioData = [
     {
         name: 'vijay verma',
-        username: '@realvjy',
+        username: '@larra',
         url: 'https://vjy.me',
         titleImg: true,
         avatar: '/avatar.png',
@@ -123,7 +101,7 @@ const webLinks = [
     // All social profile
     {
         title: 'Twitter',
-        url: 'https://twitter.com/realvjy',
+        url: 'https://twitter.com/larra',
         type: 'social',
         icon: '/twitter.svg',
         on: true
@@ -133,7 +111,7 @@ const webLinks = [
     
     {
         title: 'Instagram',
-        url: 'https://instagram.com/realvjy',
+        url: 'https://instagram.com/larra',
         type: 'social',
         icon: '/insta.svg',
         on: true
@@ -220,9 +198,6 @@ Already added `next-seo`. All you have to do is `update next-seo.config.js` file
 ## Google Analytics
 In Vercel, you can set this by going to your project, then Settings and finally [Environments Variables](https://vercel.com/docs/concepts/projects/environment-variables). To get GA 4 code `G-ZXX0000XXX` follow [these steps ](https://support.google.com/analytics/answer/9304153?hl=en)
 
-<img src="https://vjy.me/ga-analytics.png" style="width: 500px !important;"/>
-
-
 ## Custom Domain
 By default vercel give you a subdomain with your project name like - [nxtlnk.vercel.app](https:nxtlnk.vercel.app). But you can add own domain. 
 
@@ -230,9 +205,3 @@ Vercel/Netlify give you option to add any domain to the deployed project like [v
 
 ## Favicon
 Create a `favicon.ico` file and place inside `public` folder. I use [favicon.io](https://favicon.io/favicon-converter/)
-
-## Contributors
-Created by [realvjy](https://twitter.com/realvjy). You are always welcome to share your feedback on twitter or any social media platform.
-
-If you want to contribute. Just create a pull request. 
-    
