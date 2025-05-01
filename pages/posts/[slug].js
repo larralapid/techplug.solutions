@@ -14,7 +14,7 @@ const MarkdownContainer = styled.div`
   font-weight: 700;
   letter-spacing: -2px;
   background: linear-gradient(
-    0deg,
+    549deg,
     #4ab1f1 5.71%,
     #566cec 33.77%,
     #d749af 61.82%,
@@ -69,7 +69,7 @@ h3 {
     overflow-x: auto;
   }
   a {
-    color:rgb(25, 0, 211);
+    color:rgb(142, 244, 78);
     text-decoration: underline;
   }
 `;
