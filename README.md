@@ -1,26 +1,6 @@
-**Table of Contents**
-<!-- START doctoc generated TOC please keep comment here to allow auto update -->
-<!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
-  - [Usage](#usage)
-  - [Quick Start](#quick-start)
-  - [Manual Setup](#manual-setup)
-  - [Getting Started](#getting-started)
-  - [Images](#images)
-  - [Update Bio](#update-bio)
-    - [Add/Update](#update-bio)
-    - [Enable/Disable](#update-bio)
-    - [Featured Banner](#update-bio)
-  - [Update Links](#update-links)
-    - [Enable/Disable](#update-links)
-    - [Add/Update](#update-links)
-  - [Frontend](#frontend)
-  - [SEO](#seo)
-  - [Google Analytics](#google-analytics)
-  - [Custom Domain](#custom-domain)
-  - [Favicon](#favicon)
-  - [Contributors](#contributors)
-  
-  
+## how to add pages
+add markdown files to the content folder then update WebLinks.js to add a new block that links to the new page. 
+
 ## Usage
 `nxt-lnk` template used to create your custom bio link and self-host on Vercel or Netlify using your own domain. Need little understanding of code :) ☕
 
@@ -43,8 +23,6 @@ npm run dev
 yarn dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
-
 **Important files to edit or update info**
 `data/BioData.js` All basic info update here
 `data/LinksData.js` Contain all the links
@@ -58,26 +36,7 @@ You can start editing the page by modifying `data/BioData.js` and `data/LinksDat
 ## Images
 All images stored inside `public` folder of the project.
 
-## Update Bio
-**Example from** `BioData.js` :
-```jsx
-const bioData = [
-    {
-        name: 'vijay verma',
-        username: '@larra',
-        url: 'https://vjy.me',
-        titleImg: true,
-        avatar: '/avatar.png',
-        nftAvatar: true,
-        description: 'A short description/bio about you goes here',
-        subdesc: 'This is secondary description. If you do not need, you can remove it',
-        newProductUrl: 'https://vjy.me/lnk',
-        newProduct: true,
-    },
-];
 
-export default bioData;
-```
 **Avatar**
 Just replace `avatar.png`. 200x200px will be good.
 
@@ -92,53 +51,6 @@ By default `titleImg: true` and it look for `title.svg`. Replace svg with logo *
 `newProductUrl` and `newProduct` used for getting featured banner. You can replace the image `newproduct.png`  with any design you like.
 
 `newProduct: true` show banner. Default is `true` make it false to hide.
-
-
-## Update Links
-**Example from** `LinksData.js` :
-```jsx
-const webLinks = [
-    // All social profile
-    {
-        title: 'Twitter',
-        url: 'https://twitter.com/larra',
-        type: 'social',
-        icon: '/twitter.svg',
-        on: true
-    },
-    ...
-    ...
-    
-    {
-        title: 'Instagram',
-        url: 'https://instagram.com/larra',
-        type: 'social',
-        icon: '/insta.svg',
-        on: true
-    }
-];
-export default webLinks;
-```
-**Enable/Disable Social Media**
-Find `type: social` and change `on:true|false`
-
-| Title           | on (default)    | 
-| ---------       | --------        | 
-| `Twitter`       | `true`          | 
-| `Instagram`     | `true`          | 
-| `Dribbble`      | `false`          | 
-| `Medium`        | `false`          | 
-| `Github`        | `true`          | 
-| `Youtube`       | `false`          | 
-| `Behance`       | `true`          | 
-| `Figma`         | `true`          | 
-| `Linkedin`      | `false`          | 
-| `Mastodon`      | `false`          | 
-| `Hive Social`    | `false`          | 
-| `Post.news`      | `false`          | 
-
-Setting `on: true` show the social icon. 
-The social media icons are arranged in a single row at the top of the page below description. If you want to use as list, chagne type to `type: 'other'`
 
 **Add new Social Media link**
 create a new block by copying this
@@ -192,16 +104,3 @@ const install = allLinks.filter((el) => {
 
 Add new section with specific `type` in `Linkdata.js`. Then copy `LinkSection` Code to create new section in `WebLinks.js` file. Make sure to create get data of that section as well.
       
-## SEO
-Already added `next-seo`. All you have to do is `update next-seo.config.js` file. Make sure to add direct link of `preview.jpg`file, like - `https://vjy.me/preview.jpg`.
-
-## Google Analytics
-In Vercel, you can set this by going to your project, then Settings and finally [Environments Variables](https://vercel.com/docs/concepts/projects/environment-variables). To get GA 4 code `G-ZXX0000XXX` follow [these steps ](https://support.google.com/analytics/answer/9304153?hl=en)
-
-## Custom Domain
-By default vercel give you a subdomain with your project name like - [nxtlnk.vercel.app](https:nxtlnk.vercel.app). But you can add own domain. 
-
-Vercel/Netlify give you option to add any domain to the deployed project like [vjy.me/lnk](https://vjy.me/lnk) or [nxtlnk.xyz](https://nxtlnk.xyz). All you have to do is follow official [Vercel documentaion](https://vercel.com/docs/concepts/projects/domains/add-a-domain) or [Netlify Documentaion](https://www.netlify.com/blog/2021/12/20/how-to-add-custom-domains-to-netlify-sites/)
-
-## Favicon
-Create a `favicon.ico` file and place inside `public` folder. I use [favicon.io](https://favicon.io/favicon-converter/)

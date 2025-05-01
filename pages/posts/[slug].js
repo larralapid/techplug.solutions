@@ -75,7 +75,7 @@ h3 {
 `;
 
 export async function getStaticPaths() {
-    const contentDir = path.join(process.cwd(), 'content');
+    const contentDir = path.join(process.cwd(), 'posts');
     const files = fs.readdirSync(contentDir);
     const paths = files.filter(f => f.endsWith('.md')).map(filename => {
         const slug = filename.replace(/\.md$/, '');
@@ -86,7 +86,7 @@ export async function getStaticPaths() {
 
 export async function getStaticProps({ params }) {
     const { slug } = params;
-    const filePath = path.join(process.cwd(), 'content', `${slug}.md`);
+    const filePath = path.join(process.cwd(), 'posts', `${slug}.md`);
     const fileContents = fs.readFileSync(filePath, 'utf8');
     const { data, content } = matter(fileContents);
     const processedContent = await remark().use(html).process(content);

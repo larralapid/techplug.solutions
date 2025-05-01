@@ -5,7 +5,7 @@ const bioData = [
         username: '',
         url: 'https://larralapid.dev',
         titleImg: false,
-        avatar: '/brain graph.png',
+        avatar: '/brain%20graph.png',
         nftAvatar: false,
         description: ' ',
         descShow: true,
