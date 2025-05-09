@@ -37,6 +37,14 @@ const webLinks = [
         icon: '/use.png',
         on: true
     },
+    
+    {
+        title: 'action menu example',
+        url: 'https://www.icloud.com/shortcuts/234e417b0967487eb9de2d195486a1fa',
+        type: 'install',
+        icon: '/use.png',
+        on: true
+    },
 ];
 
 export default webLinks;
