@@ -45,8 +45,18 @@ const webLinks = [
         icon: '/use.png',
         on: true
     },
+    
+        {
+        title: 'Medium --> Freedium',
+        url: 'https://www.icloud.com/shortcuts/b43a5dbcd18243cda8462c28eb177a6d',
+        type: 'install',
+        icon: '/use.png',
+        on: true
+    },
 ];
 
 export default webLinks;
+
+
 
 
